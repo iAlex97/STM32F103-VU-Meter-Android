@@ -36,6 +36,9 @@ dependencies {
     implementation 'androidx.core:core:1.0.1'
     implementation 'com.google.android.material:material:1.1.0-alpha05'
 
+    implementation 'com.macroyau:blue2serial:0.1.5'
+    implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
+
     implementation "io.reactivex.rxjava2:rxjava:2.2.7"
     implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
 
@@ -57,9 +60,6 @@ dependencies {
     //implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
     implementation 'com.github.bumptech.glide:glide:3.7.0'
     implementation 'com.jakewharton.timber:timber:4.7.1'
-
-    implementation 'com.akexorcist:bluetoothspp:1.0.0'
-
 
     implementation "com.jakewharton:butterknife:$BUTTERKNIFE_VERSION"
     annotationProcessor "com.jakewharton:butterknife-compiler:$BUTTERKNIFE_VERSION"
